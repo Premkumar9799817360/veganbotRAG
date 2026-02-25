@@ -1,0 +1,528 @@
+2026-02-25 23:06:21,863 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-25 23:06:23,373 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-25 23:06:23,374 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-25 23:06:23,374 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-25 23:06:23,375 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-25 23:06:23,376 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:06:23,861 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:06:23,862 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-25 23:06:23,863 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-25 23:06:23,863 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-25 23:06:23,863 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-25 23:06:23,867 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:06:24,316 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:06:24,316 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-25 23:06:24,317 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-25 23:06:24,318 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-25 23:06:24,319 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-25 23:06:24,319 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-25 23:06:30,888 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-25 23:06:30,888 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-25 23:06:30,889 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-25 23:06:31,828 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-25 23:06:33,352 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-25 23:06:33,353 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-25 23:06:33,353 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-25 23:06:33,353 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-25 23:06:33,356 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:06:33,842 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:06:33,843 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-25 23:06:33,844 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-25 23:06:33,844 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-25 23:06:33,844 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-25 23:06:33,847 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:06:34,335 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:06:34,335 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-25 23:06:34,336 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-25 23:06:34,336 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-25 23:06:34,337 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-25 23:06:34,337 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-25 23:06:40,253 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-25 23:06:40,253 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-25 23:06:40,254 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-25 23:07:06,724 | INFO | medicalbot | ✅ Generated Queries:
+2026-02-25 23:07:09,249 | INFO | medicalbot | 📄 Fusion Retrieval Completed
+2026-02-25 23:10:20,725 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-25 23:10:22,361 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-25 23:10:22,361 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-25 23:10:22,363 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-25 23:10:22,363 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-25 23:10:22,365 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:10:22,863 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:10:22,864 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-25 23:10:22,864 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-25 23:10:22,865 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-25 23:10:22,865 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-25 23:10:22,868 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:10:23,331 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:10:23,331 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-25 23:10:23,332 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-25 23:10:23,332 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-25 23:10:23,334 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-25 23:10:23,335 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-25 23:10:29,212 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-25 23:10:29,213 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-25 23:10:29,214 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-25 23:10:30,107 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-25 23:10:31,646 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-25 23:10:31,646 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-25 23:10:31,647 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-25 23:10:31,647 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-25 23:10:31,649 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:10:32,144 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:10:32,144 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-25 23:10:32,145 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-25 23:10:32,145 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-25 23:10:32,145 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-25 23:10:32,148 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:10:32,594 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:10:32,595 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-25 23:10:32,596 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-25 23:10:32,596 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-25 23:10:32,597 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-25 23:10:32,597 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-25 23:10:38,223 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-25 23:10:38,224 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-25 23:10:38,224 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-25 23:10:50,210 | INFO | medicalbot | ✅ Generated Queries:
+2026-02-25 23:10:52,603 | INFO | medicalbot | 📄 Fusion Retrieval Completed
+2026-02-25 23:11:04,981 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-25 23:11:06,552 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-25 23:11:06,552 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-25 23:11:06,552 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-25 23:11:06,552 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-25 23:11:06,552 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:11:07,060 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:11:07,060 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-25 23:11:07,061 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-25 23:11:07,061 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-25 23:11:07,061 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-25 23:11:07,063 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-25 23:11:07,503 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-25 23:11:07,503 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-25 23:11:07,503 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-25 23:11:07,503 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-25 23:11:07,503 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-25 23:11:07,508 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-25 23:11:12,731 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-25 23:11:12,731 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-25 23:11:12,732 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-25 23:15:58,155 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:22:00,521 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:23:30,269 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:34:57,570 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:35:00,796 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:35:00,796 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:35:00,807 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:35:00,807 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:35:00,828 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:38:26,393 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:38:27,978 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:38:27,978 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:38:27,979 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:38:27,979 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:38:27,982 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:38:28,471 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:38:28,471 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:38:28,472 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:38:28,472 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:38:28,472 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:38:28,474 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:38:28,898 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:38:28,899 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:38:28,900 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:38:28,900 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:38:28,901 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:38:28,901 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:38:35,677 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:38:35,678 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:38:35,678 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:38:36,486 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:38:38,093 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:38:38,093 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:38:38,093 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:38:38,093 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:38:38,094 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:38:38,591 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:38:38,592 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:38:38,592 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:38:38,593 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:38:38,593 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:38:38,595 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:38:39,028 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:38:39,028 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:38:39,030 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:38:39,030 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:38:39,031 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:38:39,031 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:38:44,360 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:38:44,360 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:38:44,361 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:38:55,785 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:38:57,399 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:38:57,399 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:38:57,399 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:38:57,399 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:38:57,402 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:38:57,908 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:38:57,908 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:38:57,909 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:38:57,909 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:38:57,910 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:38:57,911 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:38:58,354 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:38:58,356 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:38:58,356 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:38:58,356 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:38:58,360 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:38:58,360 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:39:03,953 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:39:03,953 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:39:03,954 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:39:11,187 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:39:14,956 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:39:16,587 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:39:16,588 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:39:16,588 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:39:16,589 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:39:16,591 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:39:17,089 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:39:17,089 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:39:17,089 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:39:17,089 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:39:17,089 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:39:17,089 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:39:17,507 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:39:17,507 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:39:17,516 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:39:17,516 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:39:17,516 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:39:17,516 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:39:22,811 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:39:22,811 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:39:22,811 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:39:23,748 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:39:25,311 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:39:25,311 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:39:25,312 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:39:25,312 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:39:25,314 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:39:25,815 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:39:25,815 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:39:25,816 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:39:25,816 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:39:25,817 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:39:25,819 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:39:26,267 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:39:26,268 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:39:26,269 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:39:26,269 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:39:26,271 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:39:26,271 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:39:31,357 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:39:31,357 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:39:31,358 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:40:09,877 | INFO | medicalbot | ✅ Generated Queries:
+2026-02-26 00:40:12,572 | INFO | medicalbot | 📄 Fusion Retrieval Completed
+2026-02-26 00:40:33,494 | INFO | medicalbot | ✅ Generated Queries:
+2026-02-26 00:40:34,825 | INFO | medicalbot | 📄 Fusion Retrieval Completed
+2026-02-26 00:40:40,704 | INFO | medicalbot | ✅ Generated Queries:
+2026-02-26 00:40:41,993 | INFO | medicalbot | 📄 Fusion Retrieval Completed
+2026-02-26 00:40:50,563 | INFO | medicalbot | ✅ Generated Queries:
+2026-02-26 00:40:51,900 | INFO | medicalbot | 📄 Fusion Retrieval Completed
+2026-02-26 00:45:15,739 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:45:17,478 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:45:17,478 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:45:17,479 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:45:17,479 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:45:17,482 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:45:17,978 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:45:17,979 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:45:17,979 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:45:17,980 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:45:17,980 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:45:17,982 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:45:18,419 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:45:18,419 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:45:18,420 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:45:18,421 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:45:18,422 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:45:18,423 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:45:24,201 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:45:24,202 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:45:24,202 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:46:23,867 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:46:25,586 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:46:25,586 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:46:25,587 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:46:25,587 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:46:25,589 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:46:26,123 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:46:26,124 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:46:26,124 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:46:26,125 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:46:26,125 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:46:26,127 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:46:26,585 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:46:26,585 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:46:26,586 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:46:26,587 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:46:26,590 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:46:26,590 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:46:32,114 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:46:32,115 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:46:32,115 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:46:35,211 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:46:36,867 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:46:36,868 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:46:36,868 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:46:36,868 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:46:36,870 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:46:37,359 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:46:37,360 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:46:37,360 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:46:37,360 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:46:37,360 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:46:37,364 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:46:37,800 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:46:37,801 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:46:37,801 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:46:37,802 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:46:37,804 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:46:37,804 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:46:43,509 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:46:43,509 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:46:43,509 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:51:32,226 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:51:33,853 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:51:33,853 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:51:33,853 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:51:33,854 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:51:33,856 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:51:34,348 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:51:34,349 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:51:34,349 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:51:34,350 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:51:34,350 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:51:34,352 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:51:34,789 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:51:34,789 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:51:34,790 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:51:34,791 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:51:34,793 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:51:34,793 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:51:41,237 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:51:41,237 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:51:41,238 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:51:45,655 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:51:47,338 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:51:47,339 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:51:47,339 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:51:47,339 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:51:47,342 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:51:47,823 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:51:47,823 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:51:47,823 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:51:47,825 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:51:47,825 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:51:47,827 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:51:48,263 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:51:48,263 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:51:48,264 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:51:48,265 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:51:48,267 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:51:48,267 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:51:54,779 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:51:54,779 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:51:54,780 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:58:01,135 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:58:02,804 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:58:02,804 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:58:02,805 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:58:02,805 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:58:02,808 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:58:03,317 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:58:03,317 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:58:03,318 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:58:03,319 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:58:03,319 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:58:03,321 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:58:03,766 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:58:03,767 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:58:03,768 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:58:03,768 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:58:03,770 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:58:03,770 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:58:09,852 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:58:09,853 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:58:09,853 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:58:50,567 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:58:52,234 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:58:52,235 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:58:52,235 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:58:52,236 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:58:52,238 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:58:52,743 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:58:52,743 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:58:52,744 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:58:52,744 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:58:52,744 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:58:52,746 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:58:53,178 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:58:53,179 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:58:53,180 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:58:53,180 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:58:53,183 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:58:53,184 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:58:58,838 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:58:58,838 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:58:58,839 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 00:58:59,870 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 00:59:01,485 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 00:59:01,486 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 00:59:01,486 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 00:59:01,486 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 00:59:01,488 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:59:01,986 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:59:01,988 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 00:59:01,988 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 00:59:01,989 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 00:59:01,989 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 00:59:01,991 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 00:59:02,484 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 00:59:02,485 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 00:59:02,486 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 00:59:02,486 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 00:59:02,488 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 00:59:02,488 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 00:59:08,191 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 00:59:08,192 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 00:59:08,192 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 01:00:58,572 | INFO | medicalbot | ✅ Generated Queries:
+2026-02-26 01:01:01,079 | INFO | medicalbot | 📄 Fusion Retrieval Completed
+2026-02-26 01:01:57,761 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 01:01:59,365 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 01:01:59,366 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 01:01:59,366 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 01:01:59,367 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 01:01:59,369 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:01:59,855 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:01:59,856 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 01:01:59,856 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 01:01:59,857 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 01:01:59,857 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 01:01:59,859 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:02:00,296 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:02:00,296 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 01:02:00,297 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 01:02:00,297 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 01:02:00,299 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 01:02:00,300 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 01:02:05,938 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 01:02:05,938 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 01:02:05,939 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 01:02:10,465 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 01:02:12,048 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 01:02:12,048 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 01:02:12,049 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 01:02:12,049 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 01:02:12,053 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:02:12,589 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:02:12,590 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 01:02:12,590 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 01:02:12,590 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 01:02:12,590 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 01:02:12,592 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:02:13,041 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:02:13,041 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 01:02:13,043 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 01:02:13,043 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 01:02:13,045 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 01:02:13,045 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 01:02:19,483 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 01:02:19,483 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 01:02:19,484 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 01:02:28,381 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 01:02:30,162 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 01:02:30,163 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 01:02:30,163 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 01:02:30,163 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 01:02:30,165 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:02:30,652 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:02:30,652 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 01:02:30,652 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 01:02:30,653 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 01:02:30,653 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 01:02:30,655 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:02:31,096 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:02:31,097 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 01:02:31,098 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 01:02:31,098 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 01:02:31,101 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 01:02:31,101 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 01:02:37,308 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 01:02:37,309 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 01:02:37,309 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 01:02:38,310 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 01:02:39,845 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 01:02:39,845 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 01:02:39,846 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 01:02:39,846 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 01:02:39,848 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:02:40,324 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:02:40,325 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 01:02:40,325 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 01:02:40,326 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 01:02:40,326 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 01:02:40,328 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:02:40,806 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:02:40,806 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 01:02:40,807 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 01:02:40,807 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 01:02:40,809 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 01:02:40,810 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 01:02:46,521 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 01:02:46,521 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 01:02:46,522 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 01:03:14,630 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 01:03:16,262 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 01:03:16,263 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 01:03:16,263 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 01:03:16,263 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 01:03:16,266 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:03:16,741 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:03:16,741 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 01:03:16,742 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 01:03:16,742 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 01:03:16,742 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 01:03:16,744 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:03:17,174 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:03:17,175 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 01:03:17,176 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 01:03:17,176 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 01:03:17,178 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 01:03:17,178 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 01:03:22,867 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 01:03:22,867 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 01:03:22,868 | INFO | medicalbot | ✅ Retriever Ready
+2026-02-26 01:03:25,992 | INFO | medicalbot | 📜 Prompt file loaded
+2026-02-26 01:03:27,504 | INFO | medicalbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 01:03:27,505 | INFO | medicalbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 01:03:27,505 | INFO | medicalbot | ✂ Helper: text_split loaded
+2026-02-26 01:03:27,505 | INFO | medicalbot | 📥 Helper: download_embeddings loaded
+2026-02-26 01:03:27,507 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:03:27,989 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:03:27,989 | INFO | medicalbot | 🔹 Multi Query Generation Loaded
+2026-02-26 01:03:27,990 | INFO | medicalbot | 🔹 Retrieval Function Loaded
+2026-02-26 01:03:27,990 | INFO | medicalbot | 🔹 RRF Fusion Loaded
+2026-02-26 01:03:27,990 | INFO | medicalbot | 🔹 Fusion Pipeline Ready
+2026-02-26 01:03:27,992 | INFO | medicalbot | 🧠 Initializing Groq LLM...
+2026-02-26 01:03:28,441 | INFO | medicalbot | ✅ Groq LLM Ready
+2026-02-26 01:03:28,441 | INFO | medicalbot | ✅ LLM Loaded
+2026-02-26 01:03:28,442 | INFO | medicalbot | ✅ QA Prompt Ready
+2026-02-26 01:03:28,442 | INFO | medicalbot | ✅ Prompt Loaded
+2026-02-26 01:03:28,444 | INFO | medicalbot | ✅ QA Chain Created
+2026-02-26 01:03:28,445 | INFO | medicalbot | 🔗 Connecting to existing index...
+2026-02-26 01:03:34,363 | INFO | medicalbot | ✅ Connected to Pinecone
+2026-02-26 01:03:34,364 | INFO | medicalbot | ✅ Vector Store Connected
+2026-02-26 01:03:34,364 | INFO | medicalbot | ✅ Retriever Ready

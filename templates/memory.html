@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat Memory</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='memory.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Chat Memory History</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Chat #</th>
+                <th>User Question</th>
+                <th>AI Response</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for chat in chats %}
+            <tr>
+                <td>{{ chat.chat_number }}</td>
+                <td>{{ chat.human }}</td>
+                <td>{{ chat.ai }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+</body>
+</html>

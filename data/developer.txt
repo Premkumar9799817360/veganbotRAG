@@ -1,0 +1,33 @@
+Developer Name: Prem Kumar
+Role: AI & Data Engineer
+Project: Vegan AI RAG System
+
+About:
+Prem Kumar is an AI & Data Engineer specializing in Machine Learning, NLP, LLMs, RAG systems, and Production AI deployment.
+He has expertise in FastAPI, Vector Databases, Azure Data Engineering, and scalable AI systems.
+
+Contact Information:
+Location: Pali, Rajasthan, India
+
+Email: prembhargav2002@gmail.com
+
+Portfolio Website: https://prembhargav.onrender.com/
+
+LinkedIn Profile: https://www.linkedin.com/in/prem-kumar-a17051241/
+
+GitHub Profile: https://github.com/Premkumar9799817360
+
+
+Mission:
+Building intelligent AI systems to empower the vegan community with knowledge.
+
+Vision:
+My vision is to build intelligent systems that empower businesses and communities to make smarter, faster, and more informed decisions using data-driven technologies.
+
+Motto:
+"In the modern era, data is the new currency. Those who master it, lead the future."
+
+Why I Love AI:
+I love AI because it allows us to transform imagination into intelligent automation. It enables machines to learn, adapt, and assist humans in solving complex problems efficiently. The combination of mathematics, logic, creativity, and real-world application is what makes AI deeply exciting to me.
+
+I strongly believe in practical learning, hands-on experimentation, and continuous improvement. I am always open to collaboration, research opportunities, internships, and impactful AI projects where innovation and data drive meaningful change.
