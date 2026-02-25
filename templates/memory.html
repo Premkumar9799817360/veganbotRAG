@@ -1,33 +1,121 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Chat Memory</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='memory.css') }}">
+  <meta charset="UTF-8">
+  <title>VeganAI — Memory History</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='memory.css') }}">
 </head>
 <body>
 
-<div class="container">
-    <h2>Chat Memory History</h2>
+<div class="bg-canvas"></div>
+<div id="leaves-container"></div>
 
-    <table>
-        <thead>
-            <tr>
-                <th>Chat #</th>
-                <th>User Question</th>
-                <th>AI Response</th>
-            </tr>
-        </thead>
-        <tbody>
-            {% for chat in chats %}
-            <tr>
-                <td>{{ chat.chat_number }}</td>
-                <td>{{ chat.human }}</td>
-                <td>{{ chat.ai }}</td>
-            </tr>
-            {% endfor %}
-        </tbody>
-    </table>
+<div class="container">
+
+  <!-- Header -->
+  <div class="page-header">
+    <div class="header-icon">🧠</div>
+    <div class="header-text">
+      <h1>Memory History</h1>
+      <p>ALL PREVIOUS CONVERSATIONS</p>
+    </div>
+    <a href="/" class="back-btn">← Back to Chat</a>
+  </div>
+
+  <!-- Stats -->
+  <div class="stats-bar">
+    <div class="stat">
+      <span class="stat-num">{{ chats | length }}</span>
+      <span class="stat-label">Total Chats</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num">🌱</span>
+      <span class="stat-label">Plant-Based</span>
+    </div>
+    <div class="stat-divider"></div>
+    <div class="stat">
+      <span class="stat-num">AI</span>
+      <span class="stat-label">Powered</span>
+    </div>
+  </div>
+
+  <!-- Empty state -->
+  {% if not chats %}
+  <div class="empty-state">
+    <div class="empty-icon">🌿</div>
+    <h3>No conversations yet</h3>
+    <p>Start chatting with VeganAI and your history will appear here.</p>
+    <a href="/" class="empty-btn">Start a Conversation</a>
+  </div>
+
+  {% else %}
+
+  <!-- Chat Cards -->
+  <div class="cards-list">
+    {% for chat in chats %}
+    <div class="chat-card">
+
+      <div class="card-number">{{ chat.chat_number }}</div>
+
+      <!-- User question -->
+      <div class="message-block user-block">
+        <div class="msg-label">
+          <span class="avatar-icon user-av">🧑</span>
+          <span class="label-text">You asked</span>
+        </div>
+        <div class="msg-content user-content">{{ chat.human }}</div>
+      </div>
+
+      <!-- AI response rendered as markdown -->
+      <div class="message-block ai-block">
+        <div class="msg-label">
+          <span class="avatar-icon bot-av">🌿</span>
+          <span class="label-text">AI replied</span>
+        </div>
+        <div class="msg-content ai-content markdown-body" data-raw="{{ chat.ai | e }}"></div>
+      </div>
+
+    </div>
+    {% endfor %}
+  </div>
+
+  {% endif %}
+
 </div>
+
+<script>
+// Floating leaves - all positioning done in JS, no Jinja math
+const leafSVG = '<svg viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg"><path d="M20 2 C5 10, 0 30, 20 48 C40 30, 35 10, 20 2Z" opacity="0.7" fill="#40916c"/><line x1="20" y1="48" x2="20" y2="10" stroke="rgba(255,255,255,0.3)" stroke-width="1"/></svg>';
+const lc = document.getElementById('leaves-container');
+for (let i = 0; i < 10; i++) {
+  const l = document.createElement('div');
+  l.className = 'leaf';
+  l.innerHTML = leafSVG;
+  l.style.left = (Math.random() * 100) + 'vw';
+  l.style.width = (14 + Math.random() * 16) + 'px';
+  l.style.animationDuration = (14 + Math.random() * 14) + 's';
+  l.style.animationDelay = (Math.random() * 10) + 's';
+  lc.appendChild(l);
+}
+
+// Render markdown in AI reply blocks
+marked.setOptions({ breaks: true, gfm: true });
+document.querySelectorAll('.markdown-body').forEach(function(el) {
+  const raw = el.getAttribute('data-raw');
+  if (raw) {
+    el.innerHTML = marked.parse(raw);
+  }
+});
+
+// Staggered card animation - done in JS not Jinja math
+document.querySelectorAll('.chat-card').forEach(function(card, index) {
+  card.style.animationDelay = (index * 0.07) + 's';
+});
+</script>
 
 </body>
 </html>

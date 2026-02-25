@@ -1,99 +1,202 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Medical AI Assistant</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
-
-    <!-- Link CSS -->
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <meta charset="UTF-8">
+  <title>🌿 VeganAI</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/marked/9.1.6/marked.min.js"></script>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
 </head>
 <body>
 
-<div class="chat-container">
+<div class="bg-canvas"></div>
+<div id="leaves-container"></div>
 
-    <div class="chat-header">
-        🩺 Medical AI Assistant
-        <span class="status-dot"></span>
-    </div>
+<div class="app">
 
-    <div class="chat-box" id="chat-box">
-        <div class="message bot">
-            Hello 👋 I am your AI medical assistant. Ask me anything!
-        </div>
+  <div class="header">
+    <div class="header-icon">🌿</div>
+    <div class="header-title">
+      <h1>VeganAI</h1>
+      <p>PLANT-BASED INTELLIGENCE</p>
     </div>
+    <div class="status">
+      <div class="status-dot"></div>
+      ONLINE
+    </div>
+  </div>
 
-    <div class="typing" id="typing" style="display:none;">
-        <span></span><span></span><span></span>
+  <div class="messages" id="messages">
+    <div class="welcome">
+      <span class="big-icon">🥗</span>
+      <h2>Your Plant-Based Companion</h2>
+      <p>Ask me about recipes, nutrition, ingredients, meal plans, and everything vegan.</p>
+      <div class="suggestion-chips">
+        <span class="chip" onclick="quickSend(this)">🌱 Chickpea recipes</span>
+        <span class="chip" onclick="quickSend(this)">💪 Protein sources</span>
+        <span class="chip" onclick="quickSend(this)">🥑 7-day meal plan</span>
+        <span class="chip" onclick="quickSend(this)">🍫 Vegan desserts</span>
+        <span class="chip" onclick="quickSend(this)">🌍 Zero waste tips</span>
+      </div>
     </div>
+  </div>
 
-    <div class="chat-input">
-        <input 
-            type="text" 
-            id="question" 
-            placeholder="Type your medical question..."
-        >
-        <button onclick="sendMessage()">Send</button>
+  <div class="input-hint">Enter to send &middot; Shift+Enter for new line</div>
+
+  <div class="input-area">
+    <div class="input-wrap">
+      <textarea id="input" placeholder="Ask anything about plant-based living..." rows="1"></textarea>
     </div>
+    <button class="send-btn" id="sendBtn" onclick="sendMessage()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="22" y1="2" x2="11" y2="13"/>
+        <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+      </svg>
+    </button>
+  </div>
 
 </div>
 
 <script>
+// ── Floating leaves (all positioning in JS) ──
+const leafSVG = '<svg viewBox="0 0 40 50" xmlns="http://www.w3.org/2000/svg"><path d="M20 2 C5 10, 0 30, 20 48 C40 30, 35 10, 20 2Z" opacity="0.7" fill="#40916c"/><line x1="20" y1="48" x2="20" y2="10" stroke="rgba(255,255,255,0.25)" stroke-width="1"/></svg>';
+const lc = document.getElementById('leaves-container');
+for (let i = 0; i < 12; i++) {
+  const l = document.createElement('div');
+  l.className = 'leaf';
+  l.innerHTML = leafSVG;
+  l.style.left             = (Math.random() * 100) + 'vw';
+  l.style.width            = (14 + Math.random() * 18) + 'px';
+  l.style.animationDuration = (12 + Math.random() * 16) + 's';
+  l.style.animationDelay   = (Math.random() * 14) + 's';
+  lc.appendChild(l);
+}
 
-document.getElementById("question").addEventListener("keypress", function(event) {
-    if (event.key === "Enter") {
-        sendMessage();
-    }
+// ── Marked config ──
+marked.setOptions({ breaks: true, gfm: true });
+
+const messagesEl = document.getElementById('messages');
+const inputEl    = document.getElementById('input');
+const sendBtn    = document.getElementById('sendBtn');
+
+// Auto-resize textarea
+inputEl.addEventListener('input', () => {
+  inputEl.style.height = 'auto';
+  inputEl.style.height = Math.min(inputEl.scrollHeight, 120) + 'px';
 });
 
+// Enter = send, Shift+Enter = newline
+inputEl.addEventListener('keydown', e => {
+  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendMessage(); }
+});
+
+// Chip quick-send
+function quickSend(chip) {
+  // Strip emoji prefix
+  const text = chip.textContent.trim().replace(/^[\S]+\s/, '');
+  inputEl.value = text;
+  sendMessage();
+}
+
+function getTime() {
+  return new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
+}
+
+function appendMessage(text, role) {
+  const row = document.createElement('div');
+  row.className = 'msg-row ' + role;
+
+  const av = document.createElement('div');
+  av.className = 'avatar ' + (role === 'bot' ? 'bot' : 'user-av');
+  av.textContent = role === 'bot' ? '🌿' : '🧑';
+
+  const bubble = document.createElement('div');
+  bubble.className = 'bubble ' + role;
+
+  if (role === 'bot') {
+    bubble.innerHTML = marked.parse(text);
+    // Stagger animate list items
+    bubble.querySelectorAll('li').forEach((li, i) => {
+      li.style.opacity   = '0';
+      li.style.transform = 'translateX(-8px)';
+      li.style.transition = 'all 0.3s ' + (i * 0.05) + 's';
+      setTimeout(() => { li.style.opacity = '1'; li.style.transform = 'none'; }, 30);
+    });
+  } else {
+    bubble.textContent = text;
+  }
+
+  row.appendChild(av);
+  row.appendChild(bubble);
+  messagesEl.appendChild(row);
+
+  const ts = document.createElement('div');
+  ts.className = 'ts ' + (role === 'user' ? 'right' : '');
+  ts.textContent = getTime();
+  messagesEl.appendChild(ts);
+
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+function showRateLimitError(waitTime) {
+  const banner = document.createElement('div');
+  banner.className = 'rate-limit-banner';
+  banner.innerHTML = '⏳ <strong>API rate limit reached.</strong> Groq free tier token limit hit.<br>Please wait <strong>' + (waitTime || 'a few minutes') + '</strong> before sending again, or upgrade your Groq plan.';
+  messagesEl.appendChild(banner);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+function showTyping() {
+  const row = document.createElement('div');
+  row.className = 'typing-row';
+  row.id = 'typing';
+  row.innerHTML = '<div class="avatar bot">🌿</div><div class="typing-bubble"><span></span><span></span><span></span></div>';
+  messagesEl.appendChild(row);
+  messagesEl.scrollTop = messagesEl.scrollHeight;
+}
+
+function hideTyping() {
+  const t = document.getElementById('typing');
+  if (t) t.remove();
+}
+
 async function sendMessage() {
+  const question = inputEl.value.trim();
+  if (!question) return;
 
-    const input = document.getElementById("question");
-    const chatBox = document.getElementById("chat-box");
-    const typing = document.getElementById("typing");
+  appendMessage(question, 'user');
+  inputEl.value = '';
+  inputEl.style.height = 'auto';
+  showTyping();
+  sendBtn.disabled = true;
 
-    const question = input.value.trim();
-    if (!question) return;
+  try {
+    const response = await fetch('/ask', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ question })
+    });
 
-    appendMessage(question, "user");
-    input.value = "";
-    chatBox.scrollTop = chatBox.scrollHeight;
+    const data = await response.json();
+    hideTyping();
 
-    typing.style.display = "flex";
-
-    try {
-        const response = await fetch("/ask", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ question: question })
-        });
-
-        if (!response.ok) throw new Error("Network error");
-
-        const data = await response.json();
-
-        typing.style.display = "none";
-        appendMessage(data.answer || "No response received.", "bot");
-
-    } catch (error) {
-        typing.style.display = "none";
-        appendMessage("Server error. Please try again.", "bot");
+    // Check for rate limit error in answer text
+    if (data.answer && data.answer.toLowerCase().includes('rate_limit')) {
+      showRateLimitError('~25 minutes');
+    } else if (data.error && data.error.includes('rate_limit')) {
+      showRateLimitError('~25 minutes');
+    } else {
+      appendMessage(data.answer || 'No response received.', 'bot');
     }
 
-    chatBox.scrollTop = chatBox.scrollHeight;
-}
+  } catch (e) {
+    hideTyping();
+    appendMessage('⚠️ Could not reach the server. Please check Flask is running.', 'bot');
+  }
 
-function appendMessage(text, type) {
-    const chatBox = document.getElementById("chat-box");
-    const message = document.createElement("div");
-    message.className = "message " + type;
-    message.innerText = text;
-    chatBox.appendChild(message);
+  sendBtn.disabled = false;
 }
-
 </script>
 
 </body>
