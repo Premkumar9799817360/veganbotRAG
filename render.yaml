@@ -1,8 +1,12 @@
 services:
   - type: web
-    name: rag-chatbot
+    name: veganrag-chatbot
     runtime: python
     buildCommand: "pip install -r requirements.txt"
     startCommand: "gunicorn app:app"
     plan: free
     autoDeploy: true
+
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
