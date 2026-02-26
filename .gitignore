@@ -1,5 +1,6 @@
 venv/
-virtual_env/
+.env
 __pycache__/
 *.pyc
-.env
+chat_memory.db
+logs/
