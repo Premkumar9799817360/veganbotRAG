@@ -74,6 +74,15 @@ def check_memory():
 
     return render_template("memory.html", chats=chats)
 
+@app.route("/clear-memory", methods=["POST"])
+def clear_memory():
+    session_id = request.args.get("session_id", "default_session")
+    memory = get_memory(session_id)
+
+    memory.clear()   # Clear all stored messages
+
+    return jsonify({"message": "Memory cleared successfully!"})
+
 
 @app.route("/ask", methods=["POST"])
 def chat():

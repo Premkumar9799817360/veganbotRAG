@@ -335,3 +335,19 @@ body {
   .card-number { top: 16px; right: 16px; }
   .msg-content { padding: 12px 14px; }
 }
+
+
+.clear-btn {
+  background: #d00000;
+  color: white;
+  padding: 8px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-left: 10px;
+  transition: 0.3s ease;
+}
+
+.clear-btn:hover {
+  background: #a00000;
+}
