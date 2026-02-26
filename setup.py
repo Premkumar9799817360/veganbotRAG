@@ -7,16 +7,21 @@ setup(
     author_email="prembhargav2002@gmail.com",
     packages=find_packages(),
     install_requires=[
-        "langchain==0.3.26",
-        "langchain-core==0.3.66",
-        "langchain-community==0.3.26",
-        "langchain-groq==0.2.3",
-        "flask==3.1.1",
-        "sentence-transformers==4.1.0",
-        "pypdf==5.6.1",
-        "python-dotenv==1.1.0",
-        "huggingface-hub==0.24.6",
-        "qdrant-client==1.9.1",
-        "groq==0.9.0"
+          "flask==3.0.3",
+        "python-dotenv==1.0.1",
+        "langchain==0.2.16",
+        "langchain-core==0.2.38",
+        "langchain-community==0.2.16",
+        "langchain-pinecone==0.1.2",
+        "pinecone-client==3.2.2",
+        "sentence-transformers==2.7.0",
+        "huggingface-hub==0.23.4",
+        "torch>=2.2.0",
+        "pypdf==4.2.0",
+        "groq==0.9.0",
+        "langchain-groq==0.1.9",
+        "SQLAlchemy>=2.0.0",
+        "httpx==0.27.0",
+        "gunicorn"
     ]
 )
