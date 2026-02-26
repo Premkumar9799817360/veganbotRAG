@@ -596,3 +596,6 @@
 2026-02-26 13:57:20,138 | INFO | veganbot | ✅ Prompt Loaded
 2026-02-26 13:57:20,142 | INFO | veganbot | ✅ QA Chain Created
 2026-02-26 13:57:20,142 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-26 13:57:34,579 | INFO | veganbot | ✅ Connected to Pinecone
+2026-02-26 13:57:34,579 | INFO | veganbot | ✅ Vector Store Connected
+2026-02-26 13:57:34,579 | INFO | veganbot | ✅ Retriever Ready
