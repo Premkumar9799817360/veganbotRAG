@@ -1,6 +1,6 @@
 import os
 from pinecone import Pinecone, ServerlessSpec
-from langchain_pinecone import PineconeVectorStore
+from langchain_pinecone import Pinecone as PineconeVectorStore
 from dotenv import load_dotenv
 
 from src.helper import (
@@ -56,7 +56,8 @@ def index_documents(data_path="data/", index_name="veganbot"):
     create_or_get_index(index_name)
 
     logger.info("📤 Uploading documents to Pinecone...")
-
+    pc = Pinecone(api_key=PINECONE_API_KEY)
+    index = pc.Index(index_name)
     PineconeVectorStore.from_documents(
         documents=texts_chunk,
         embedding=embeddings,
@@ -74,7 +75,8 @@ def connect_vector_store(index_name="veganbot"):
     logger.info("🔗 Connecting to existing index...")
 
     embeddings = download_embeddings()
-
+    pc = Pinecone(api_key=PINECONE_API_KEY)
+    index = pc.Index(index_name)
     vectorstore = PineconeVectorStore(
         index_name=index_name,
         embedding=embeddings,

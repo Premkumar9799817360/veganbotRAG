@@ -1,13 +1,13 @@
 from setuptools import find_packages, setup
 
 setup(
-    name="Medical_chatbot",
+    name="vegan_chatbot",
     version="0.1.0",
     author="Prem Kumar AI Engineer",
     author_email="prembhargav2002@gmail.com",
     packages=find_packages(),
     install_requires=[
-          "flask==3.0.3",
+        "flask",
         "python-dotenv==1.0.1",
         "langchain==0.2.16",
         "langchain-core==0.2.38",

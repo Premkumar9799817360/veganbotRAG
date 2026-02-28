@@ -1,0 +1,145 @@
+2026-02-26 16:00:08,552 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-26 16:00:10,248 | INFO | veganbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 16:00:10,256 | INFO | veganbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 16:00:10,256 | INFO | veganbot | ✂ Helper: text_split loaded
+2026-02-26 16:00:10,256 | INFO | veganbot | 📥 Helper: download_embeddings loaded
+2026-02-26 16:00:10,256 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:00:10,755 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:00:10,755 | INFO | veganbot | 🔹 Multi Query Generation Loaded
+2026-02-26 16:00:10,755 | INFO | veganbot | 🔹 Retrieval Function Loaded
+2026-02-26 16:00:10,755 | INFO | veganbot | 🔹 RRF Fusion Loaded
+2026-02-26 16:00:10,755 | INFO | veganbot | 🔹 Fusion Pipeline Ready
+2026-02-26 16:00:10,755 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:00:11,185 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:00:11,186 | INFO | veganbot | ✅ LLM Loaded
+2026-02-26 16:00:11,187 | INFO | veganbot | ✅ QA Prompt Ready
+2026-02-26 16:00:11,187 | INFO | veganbot | ✅ Prompt Loaded
+2026-02-26 16:00:11,189 | INFO | veganbot | ✅ QA Chain Created
+2026-02-26 16:00:11,189 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-26 16:04:41,803 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-26 16:04:43,573 | INFO | veganbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 16:04:43,573 | INFO | veganbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 16:04:43,573 | INFO | veganbot | ✂ Helper: text_split loaded
+2026-02-26 16:04:43,573 | INFO | veganbot | 📥 Helper: download_embeddings loaded
+2026-02-26 16:04:43,576 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:04:44,093 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:04:44,093 | INFO | veganbot | 🔹 Multi Query Generation Loaded
+2026-02-26 16:04:44,093 | INFO | veganbot | 🔹 Retrieval Function Loaded
+2026-02-26 16:04:44,093 | INFO | veganbot | 🔹 RRF Fusion Loaded
+2026-02-26 16:04:44,096 | INFO | veganbot | 🔹 Fusion Pipeline Ready
+2026-02-26 16:04:44,096 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:04:44,560 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:04:44,560 | INFO | veganbot | ✅ LLM Loaded
+2026-02-26 16:04:44,560 | INFO | veganbot | ✅ QA Prompt Ready
+2026-02-26 16:04:44,561 | INFO | veganbot | ✅ Prompt Loaded
+2026-02-26 16:04:44,563 | INFO | veganbot | ✅ QA Chain Created
+2026-02-26 16:04:44,563 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-26 16:07:58,791 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-26 16:17:34,828 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-26 16:17:37,023 | INFO | veganbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 16:17:37,023 | INFO | veganbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 16:17:37,023 | INFO | veganbot | ✂ Helper: text_split loaded
+2026-02-26 16:17:37,023 | INFO | veganbot | 📥 Helper: download_embeddings loaded
+2026-02-26 16:17:37,026 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:17:37,538 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:17:37,538 | INFO | veganbot | 🔹 Multi Query Generation Loaded
+2026-02-26 16:17:37,538 | INFO | veganbot | 🔹 Retrieval Function Loaded
+2026-02-26 16:17:37,538 | INFO | veganbot | 🔹 RRF Fusion Loaded
+2026-02-26 16:17:37,538 | INFO | veganbot | 🔹 Fusion Pipeline Ready
+2026-02-26 16:17:37,545 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:17:37,976 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:17:37,976 | INFO | veganbot | ✅ LLM Loaded
+2026-02-26 16:17:37,978 | INFO | veganbot | ✅ QA Prompt Ready
+2026-02-26 16:17:37,978 | INFO | veganbot | ✅ Prompt Loaded
+2026-02-26 16:17:37,979 | INFO | veganbot | ✅ QA Chain Created
+2026-02-26 16:17:37,979 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-26 16:37:12,682 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-26 16:37:15,403 | INFO | veganbot | 📂 Helper: load_pdf_files loaded
+2026-02-26 16:37:15,403 | INFO | veganbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-26 16:37:15,403 | INFO | veganbot | ✂ Helper: text_split loaded
+2026-02-26 16:37:15,403 | INFO | veganbot | 📥 Helper: download_embeddings loaded
+2026-02-26 16:37:15,411 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:37:16,065 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:37:16,065 | INFO | veganbot | 🔹 Multi Query Generation Loaded
+2026-02-26 16:37:16,065 | INFO | veganbot | 🔹 Retrieval Function Loaded
+2026-02-26 16:37:16,065 | INFO | veganbot | 🔹 RRF Fusion Loaded
+2026-02-26 16:37:16,067 | INFO | veganbot | 🔹 Fusion Pipeline Ready
+2026-02-26 16:37:16,067 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-26 16:37:16,500 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-26 16:37:16,500 | INFO | veganbot | ✅ LLM Loaded
+2026-02-26 16:37:16,500 | INFO | veganbot | ✅ QA Prompt Ready
+2026-02-26 16:37:16,500 | INFO | veganbot | ✅ Prompt Loaded
+2026-02-26 16:37:16,500 | INFO | veganbot | ✅ QA Chain Created
+2026-02-26 16:37:16,505 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-28 18:43:05,565 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-28 18:43:09,617 | INFO | veganbot | 📂 Helper: load_pdf_files loaded
+2026-02-28 18:43:09,617 | INFO | veganbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-28 18:43:09,617 | INFO | veganbot | ✂ Helper: text_split loaded
+2026-02-28 18:43:09,617 | INFO | veganbot | 📥 Helper: download_embeddings loaded
+2026-02-28 18:43:09,622 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-28 18:43:10,306 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-28 18:43:10,309 | INFO | veganbot | 🔹 Multi Query Generation Loaded
+2026-02-28 18:43:10,309 | INFO | veganbot | 🔹 Retrieval Function Loaded
+2026-02-28 18:43:10,309 | INFO | veganbot | 🔹 RRF Fusion Loaded
+2026-02-28 18:43:10,310 | INFO | veganbot | 🔹 Fusion Pipeline Ready
+2026-02-28 18:43:10,321 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-28 18:43:10,948 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-28 18:43:10,948 | INFO | veganbot | ✅ LLM Loaded
+2026-02-28 18:43:10,952 | INFO | veganbot | ✅ QA Prompt Ready
+2026-02-28 18:43:10,952 | INFO | veganbot | ✅ Prompt Loaded
+2026-02-28 18:43:10,952 | INFO | veganbot | ✅ QA Chain Created
+2026-02-28 18:43:10,955 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-28 18:53:50,118 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-28 18:53:52,576 | INFO | veganbot | 📂 Helper: load_pdf_files loaded
+2026-02-28 18:53:52,576 | INFO | veganbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-28 18:53:52,579 | INFO | veganbot | ✂ Helper: text_split loaded
+2026-02-28 18:53:52,579 | INFO | veganbot | 📥 Helper: download_embeddings loaded
+2026-02-28 18:53:52,580 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-28 18:53:53,250 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-28 18:53:53,250 | INFO | veganbot | 🔹 Multi Query Generation Loaded
+2026-02-28 18:53:53,250 | INFO | veganbot | 🔹 Retrieval Function Loaded
+2026-02-28 18:53:53,253 | INFO | veganbot | 🔹 RRF Fusion Loaded
+2026-02-28 18:53:53,253 | INFO | veganbot | 🔹 Fusion Pipeline Ready
+2026-02-28 18:53:53,253 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-28 18:53:53,833 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-28 18:53:53,833 | INFO | veganbot | ✅ LLM Loaded
+2026-02-28 18:53:53,833 | INFO | veganbot | ✅ QA Prompt Ready
+2026-02-28 18:53:53,833 | INFO | veganbot | ✅ Prompt Loaded
+2026-02-28 18:53:53,833 | INFO | veganbot | ✅ QA Chain Created
+2026-02-28 18:53:53,833 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-28 18:54:00,083 | INFO | veganbot | ✅ Connected to Pinecone
+2026-02-28 18:54:00,085 | INFO | veganbot | ✅ Vector Store Connected
+2026-02-28 18:54:00,085 | INFO | veganbot | ✅ Retriever Ready
+2026-02-28 18:54:10,109 | INFO | veganbot | ✅ Generated Queries:
+2026-02-28 18:54:13,369 | INFO | veganbot | 📄 Fusion Retrieval Completed
+2026-02-28 18:54:23,028 | INFO | veganbot | ✅ Generated Queries:
+2026-02-28 18:54:24,557 | INFO | veganbot | 📄 Fusion Retrieval Completed
+2026-02-28 18:54:30,918 | INFO | veganbot | ✅ Generated Queries:
+2026-02-28 18:54:32,294 | INFO | veganbot | 📄 Fusion Retrieval Completed
+2026-02-28 18:54:39,487 | INFO | veganbot | ✅ Generated Queries:
+2026-02-28 18:54:40,832 | INFO | veganbot | 📄 Fusion Retrieval Completed
+2026-02-28 18:54:46,668 | INFO | veganbot | ✅ Generated Queries:
+2026-02-28 18:54:48,147 | INFO | veganbot | 📄 Fusion Retrieval Completed
+2026-02-28 18:55:22,755 | INFO | veganbot | ✅ Generated Queries:
+2026-02-28 18:55:24,086 | INFO | veganbot | 📄 Fusion Retrieval Completed
+2026-02-28 19:32:54,472 | INFO | veganbot | 📜 Prompt file loaded
+2026-02-28 19:32:56,439 | INFO | veganbot | 📂 Helper: load_pdf_files loaded
+2026-02-28 19:32:56,440 | INFO | veganbot | 🧹 Helper: filter_to_minimal_docs loaded
+2026-02-28 19:32:56,440 | INFO | veganbot | ✂ Helper: text_split loaded
+2026-02-28 19:32:56,440 | INFO | veganbot | 📥 Helper: download_embeddings loaded
+2026-02-28 19:32:56,444 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-28 19:32:57,081 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-28 19:32:57,083 | INFO | veganbot | 🔹 Multi Query Generation Loaded
+2026-02-28 19:32:57,083 | INFO | veganbot | 🔹 Retrieval Function Loaded
+2026-02-28 19:32:57,083 | INFO | veganbot | 🔹 RRF Fusion Loaded
+2026-02-28 19:32:57,083 | INFO | veganbot | 🔹 Fusion Pipeline Ready
+2026-02-28 19:32:57,086 | INFO | veganbot | 🧠 Initializing Groq LLM...
+2026-02-28 19:32:57,639 | INFO | veganbot | ✅ Groq LLM Ready
+2026-02-28 19:32:57,639 | INFO | veganbot | ✅ LLM Loaded
+2026-02-28 19:32:57,639 | INFO | veganbot | ✅ QA Prompt Ready
+2026-02-28 19:32:57,639 | INFO | veganbot | ✅ Prompt Loaded
+2026-02-28 19:32:57,639 | INFO | veganbot | ✅ QA Chain Created
+2026-02-28 19:32:57,639 | INFO | veganbot | 🔗 Connecting to existing index...
+2026-02-28 19:33:05,781 | INFO | veganbot | ✅ Connected to Pinecone
+2026-02-28 19:33:05,786 | INFO | veganbot | ✅ Vector Store Connected
+2026-02-28 19:33:05,788 | INFO | veganbot | ✅ Retriever Ready
