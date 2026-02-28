@@ -7,19 +7,19 @@
 ## 📸 Project Screenshots
 
 ### 🤖 Main Chat Interface
-![VeganAI Chat Interface](./screenshot1_main.png)
+![VeganAI Chat Interface](https://github.com/Premkumar9799817360/veganbotRAG/blob/main/image/Screenshot%202026-02-28%20220414.png)
 *VeganAI — Smart Vegan Assistant. Ask anything about plant-based living: recipes, nutrition, ingredients, meal plans, and more.*
 
 ---
 
-### 🛠️ Project Structure in VS Code
-![VS Code Project Structure](./screenshot2_vscode.png)
-*Full project source structure in VS Code showing Flask app, memory module, retrieval fusion, and SQLite chat memory.*
+### 🛠️ Main Chat Interface
+![Chat with Veganbot](https://github.com/Premkumar9799817360/veganbotRAG/blob/main/image/Screenshot%202026-02-28%20220502.png)
+*VeganAI — Smart Vegan Assistant. Ask anything about plant-based living: recipes, nutrition, ingredients, meal plans, and more.*
 
 ---
 
 ### 🧠 Memory History & Management
-![Memory History Page](./screenshot3_memory.png)
+![Memory History Page](https://github.com/Premkumar9799817360/veganbotRAG/blob/main/image/Screenshot%202026-02-28%20220516.png)
 *Memory History page displaying all previous conversations with the ability to clear memory and navigate back to chat.*
 
 ---
