@@ -143,3 +143,5 @@
 2026-02-28 19:33:05,781 | INFO | veganbot | ✅ Connected to Pinecone
 2026-02-28 19:33:05,786 | INFO | veganbot | ✅ Vector Store Connected
 2026-02-28 19:33:05,788 | INFO | veganbot | ✅ Retriever Ready
+2026-02-28 19:35:48,205 | INFO | veganbot | ✅ Generated Queries:
+2026-02-28 19:35:51,095 | INFO | veganbot | 📄 Fusion Retrieval Completed
