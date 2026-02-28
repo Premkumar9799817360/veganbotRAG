@@ -1,10 +1,6 @@
 import os
 from pinecone import Pinecone, ServerlessSpec
-<<<<<<< HEAD
 from langchain_pinecone import Pinecone as PineconeVectorStore
-=======
-from langchain_community.vectorstores import Pinecone as PineconeVectorStore
->>>>>>> 50c8da3ae75ca0de51fc94df1944981554d072a5
 from dotenv import load_dotenv
 
 from src.helper import (
