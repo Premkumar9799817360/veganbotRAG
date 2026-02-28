@@ -29,7 +29,7 @@ langchain-community==0.2.16
 langchain-pinecone==0.1.2
 langchain-groq==0.1.9
 
-pinecone==5.0.1
+pinecone==3.2.2
 
 sentence-transformers==2.7.0
 huggingface-hub==0.23.4
